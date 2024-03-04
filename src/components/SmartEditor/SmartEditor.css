@@ -1,0 +1,25 @@
+.smart-editor {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.smart-editor > textarea {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.smart-editor > .container {
+  font-family: monospace;
+  position: absolute;
+  inset: 0;
+}
+.smart-editor > .container.light {
+  background: white;
+  color: black;
+}
+.smart-editor > .container.dark {
+  background: black;
+  color: white;
+}
